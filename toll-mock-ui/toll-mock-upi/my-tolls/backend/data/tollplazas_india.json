@@ -1,0 +1,4410 @@
+[
+  {
+    "id": "TOLL_1",
+    "name": "Thakurtola (End of Durg Bypass)",
+    "lat": 21.117914,
+    "lng": 81.122298,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_2",
+    "name": "Bankapur",
+    "lat": 14.90999,
+    "lng": 75.2798,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_3",
+    "name": "Hirebagewadi",
+    "lat": 15.76311,
+    "lng": 74.64785,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_4",
+    "name": "Durg Bypass (Dhamdanaka)",
+    "lat": 21.214518,
+    "lng": 81.287962,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_5",
+    "name": "Hattargi",
+    "lat": 16.1433,
+    "lng": 74.51696,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_6",
+    "name": "Kognoli",
+    "lat": 16.5422,
+    "lng": 74.31825,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_7",
+    "name": "Tundla",
+    "lat": 27.218247,
+    "lng": 78.272821,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_8",
+    "name": "Brahamarakotlu",
+    "lat": 12.875095,
+    "lng": 75.003849,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_9",
+    "name": "Cable Stayed Naini Bridge",
+    "lat": 25.41629,
+    "lng": 81.861017,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_10",
+    "name": "Bassi",
+    "lat": 25.033921,
+    "lng": 74.817676,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_11",
+    "name": "Aroli",
+    "lat": 25.09118,
+    "lng": 75.199063,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_12",
+    "name": "Dhaneshwar",
+    "lat": 25.072621,
+    "lng": 75.598467,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_13",
+    "name": "Fatehpur",
+    "lat": 25.122,
+    "lng": 76.572806,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_14",
+    "name": "Simliya",
+    "lat": 25.170089,
+    "lng": 76.130552,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_15",
+    "name": "Omallur",
+    "lat": 11.72034,
+    "lng": 78.07338,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_16",
+    "name": "Nathakkarai",
+    "lat": 11.592809,
+    "lng": 78.780812,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_17",
+    "name": "Veeracholapuram (West)",
+    "lat": 11.736464,
+    "lng": 79.010409,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_18",
+    "name": "Palayam (Dharmapuri)",
+    "lat": 12.00643,
+    "lng": 78.08042,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_19",
+    "name": "Rasampalayan",
+    "lat": 11.193895,
+    "lng": 78.103219,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_20",
+    "name": "Nemili (Sriperumbudur)",
+    "lat": 12.982155,
+    "lng": 79.968944,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_21",
+    "name": "Joya",
+    "lat": 28.836176,
+    "lng": 78.420749,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_22",
+    "name": "Khalghat -MP/Maharashtra Border(Sendhwa, Jamli)",
+    "lat": 21.75667,
+    "lng": 75.156824,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_23",
+    "name": "Boothakudi",
+    "lat": 10.64127,
+    "lng": 78.581277,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_24",
+    "name": "Chittampatti",
+    "lat": 9.989594,
+    "lng": 78.244086,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_25",
+    "name": "Banglore - Neelamangla",
+    "lat": 13.090749,
+    "lng": 77.400004,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_26",
+    "name": "Chalageri",
+    "lat": 14.556778,
+    "lng": 75.728025,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_27",
+    "name": "Choundha",
+    "lat": 26.467309,
+    "lng": 78.010916,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_28",
+    "name": "Brijghat",
+    "lat": 28.767149,
+    "lng": 78.110043,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_29",
+    "name": "Usaka ( Chamari)",
+    "lat": 26.036608,
+    "lng": 79.577976,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_30",
+    "name": "Indore Dewas  (Indore Bypass)",
+    "lat": 22.822692,
+    "lng": 75.938208,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_31",
+    "name": "Dasna",
+    "lat": 28.684924,
+    "lng": 77.522471,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_32",
+    "name": "Siwaya",
+    "lat": 29.095601,
+    "lng": 77.710995,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_33",
+    "name": "Daffi",
+    "lat": 25.248275,
+    "lng": 82.994017,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_34",
+    "name": "Mohania",
+    "lat": 25.19093,
+    "lng": 83.559544,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_35",
+    "name": "Sasaram",
+    "lat": 24.957125,
+    "lng": 83.954997,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_36",
+    "name": "Anantram",
+    "lat": 26.594931,
+    "lng": 79.268034,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_37",
+    "name": "Tendua (Gorakhpur Bypass)",
+    "lat": 26.724015,
+    "lng": 83.274398,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_38",
+    "name": "Barajore (Bara)",
+    "lat": 26.386389,
+    "lng": 80.021485,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_39",
+    "name": "Bharudi",
+    "lat": 21.805381,
+    "lng": 70.663976,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_40",
+    "name": "Pithadiya",
+    "lat": 22.082642,
+    "lng": 70.781004,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_41",
+    "name": "Choryasi",
+    "lat": 21.303367,
+    "lng": 72.95418,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_42",
+    "name": "Anewadi",
+    "lat": 17.810312,
+    "lng": 73.971381,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_43",
+    "name": "Mettupatti",
+    "lat": 11.66167,
+    "lng": 78.330768,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_44",
+    "name": "Doddakarenahalli (Neelmangala )",
+    "lat": 13.068175,
+    "lng": 77.3605999,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_45",
+    "name": "Thirumandurai",
+    "lat": 11.396808,
+    "lng": 78.99356,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_46",
+    "name": "Paduna",
+    "lat": 24.271438,
+    "lng": 73.67379,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_47",
+    "name": "Patas",
+    "lat": 18.424491,
+    "lng": 74.466193,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_48",
+    "name": "Thandikhui",
+    "lat": 32.607394,
+    "lng": 74.944346,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_49",
+    "name": "Daroda",
+    "lat": 20.450467,
+    "lng": 78.755153,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_50",
+    "name": "Samakhiyali",
+    "lat": 23.308555,
+    "lng": 70.49059,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_51",
+    "name": "Kelapur",
+    "lat": 20.019307,
+    "lng": 78.54022,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_52",
+    "name": "Nandgaon Peth",
+    "lat": 20.951008,
+    "lng": 77.788359,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_53",
+    "name": "Mundiyar",
+    "lat": 25.208647,
+    "lng": 77.136059,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_54",
+    "name": "Raksha",
+    "lat": 25.461841,
+    "lng": 78.451052,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_55",
+    "name": "Ramnagar",
+    "lat": 25.278913,
+    "lng": 77.614165,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_56",
+    "name": "Athur (Tindivanam)",
+    "lat": 12.346862,
+    "lng": 79.779856,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_57",
+    "name": "Vanagaram (Chennai Bypass)",
+    "lat": 13.043526,
+    "lng": 80.149598,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_58",
+    "name": "Mandawnagar",
+    "lat": 26.810525,
+    "lng": 82.731283,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_59",
+    "name": "Surapattu (Chennai Bypass II)",
+    "lat": 13.136678,
+    "lng": 80.181624,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_60",
+    "name": "Paranur (Chengalpet)",
+    "lat": 12.723887,
+    "lng": 79.981917,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_61",
+    "name": "Nallur",
+    "lat": 13.216958,
+    "lng": 80.169353,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_62",
+    "name": "Allonia",
+    "lat": 22.269661,
+    "lng": 79.54517,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_63",
+    "name": "Eliyarpathi",
+    "lat": 9.78299,
+    "lng": 78.094492,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_64",
+    "name": "Pudurpandiyapuram",
+    "lat": 8.862935,
+    "lng": 78.117106,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_65",
+    "name": "Guna Bypass",
+    "lat": 24.620413,
+    "lng": 77.26147,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_66",
+    "name": "Malthone",
+    "lat": 24.322069,
+    "lng": 78.526217,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_67",
+    "name": "Badarpur",
+    "lat": 28.476208,
+    "lng": 77.305485,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_68",
+    "name": "Titarpani",
+    "lat": 23.233839,
+    "lng": 79.047247,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_69",
+    "name": "Gurau (Semra Atikabad)",
+    "lat": 26.996524,
+    "lng": 78.777334,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_70",
+    "name": "Jajau (Old Baretha)",
+    "lat": 26.931976,
+    "lng": 77.933397,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_71",
+    "name": "Vaiguntham",
+    "lat": 11.513282,
+    "lng": 77.923946,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_72",
+    "name": "Makhel",
+    "lat": 23.490457,
+    "lng": 70.942745,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_73",
+    "name": "Vijaymangalmam",
+    "lat": 11.245714,
+    "lng": 77.519702,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_74",
+    "name": "Bhiladi",
+    "lat": 24.143855,
+    "lng": 71.977168,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_75",
+    "name": "Kumbalam",
+    "lat": 9.89525,
+    "lng": 76.313542,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_76",
+    "name": "Varahi",
+    "lat": 23.791263,
+    "lng": 71.427652,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_77",
+    "name": "Velanchettiyur",
+    "lat": 10.699008,
+    "lng": 77.932875,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_78",
+    "name": "Krishnagiri",
+    "lat": 12.544583,
+    "lng": 78.201132,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_79",
+    "name": "Vikravandi(Villupuram)",
+    "lat": 12.024441,
+    "lng": 79.538059,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_80",
+    "name": "Pallikonda",
+    "lat": 12.905829,
+    "lng": 78.951686,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_81",
+    "name": "Morattandi",
+    "lat": 11.983278,
+    "lng": 79.78836,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_82",
+    "name": "Vaniyambadi",
+    "lat": 12.648554,
+    "lng": 78.5833,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_83",
+    "name": "Nanguneri",
+    "lat": 8.527035,
+    "lng": 77.663289,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_84",
+    "name": "Kodai Road",
+    "lat": 10.194488,
+    "lng": 77.909317,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_85",
+    "name": "Ludhawai",
+    "lat": 27.178509,
+    "lng": 77.416845,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_86",
+    "name": "Etturvattam",
+    "lat": 9.385445,
+    "lng": 77.914347,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_87",
+    "name": "Kappalur",
+    "lat": 9.844294,
+    "lng": 78.011209,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_88",
+    "name": "Salaipudhur",
+    "lat": 8.975702,
+    "lng": 77.774608,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_89",
+    "name": "Paliyekkara",
+    "lat": 10.442868,
+    "lng": 76.260179,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_90",
+    "name": "Valavanthankottai",
+    "lat": 10.744371,
+    "lng": 78.834044,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_91",
+    "name": "Karbylu (Bellur Cross)",
+    "lat": 12.962828,
+    "lng": 76.765205,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_92",
+    "name": "Pudukottai (Vagaikulam)",
+    "lat": 8.755472,
+    "lng": 78.065264,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_93",
+    "name": "Samayapuram",
+    "lat": 10.92937,
+    "lng": 78.744056,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_94",
+    "name": "Sengurichi",
+    "lat": 11.706434,
+    "lng": 79.322335,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_95",
+    "name": "Korai",
+    "lat": 27.114895,
+    "lng": 77.715981,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_96",
+    "name": "Khalghat  (Indore - Khalghat)",
+    "lat": 22.173782,
+    "lng": 75.456797,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_97",
+    "name": "Parsoni Khem",
+    "lat": 26.451663,
+    "lng": 85.022711,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_98",
+    "name": "Kishangarh (Badgaon)",
+    "lat": 26.595329,
+    "lng": 74.939169,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_99",
+    "name": "Maithi",
+    "lat": 26.112648,
+    "lng": 85.564827,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_100",
+    "name": "Tatiyawas",
+    "lat": 27.089775,
+    "lng": 75.7415,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_101",
+    "name": "Chiddan",
+    "lat": 31.617167,
+    "lng": 74.692378,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_102",
+    "name": "Dappar",
+    "lat": 30.527449,
+    "lng": 76.813037,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_103",
+    "name": "Gogunda (Jaswantgarh)",
+    "lat": 24.766166,
+    "lng": 73.523999,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_104",
+    "name": "Kurali (Behrampur)",
+    "lat": 30.842218,
+    "lng": 76.568495,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_105",
+    "name": "Jojro Ka Khera",
+    "lat": 25.082922,
+    "lng": 74.624379,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_106",
+    "name": "Kedi",
+    "lat": 26.104125,
+    "lng": 74.685331,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_107",
+    "name": "Khandi Obari",
+    "lat": 23.993636,
+    "lng": 73.627895,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_108",
+    "name": "Narayanpura",
+    "lat": 24.613529,
+    "lng": 74.233079,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_109",
+    "name": "Malera",
+    "lat": 24.712368,
+    "lng": 73.093755,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_110",
+    "name": "Ghoti",
+    "lat": 19.708905,
+    "lng": 73.614819,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_111",
+    "name": "Vaghasia",
+    "lat": 22.42301,
+    "lng": 71.088805,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_112",
+    "name": "Lakhanpur/ Rajbagh",
+    "lat": 32.382605,
+    "lng": 75.598788,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_113",
+    "name": "Dhumiyani",
+    "lat": 21.751451,
+    "lng": 70.326793,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_114",
+    "name": "Chandwad",
+    "lat": 20.325014,
+    "lng": 74.210751,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_115",
+    "name": "Khedshivapur",
+    "lat": 18.3313849,
+    "lng": 73.8525197,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_116",
+    "name": "Baswant (Pimplegaon)",
+    "lat": 20.141701,
+    "lng": 73.976492,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_117",
+    "name": "Sendurwafa",
+    "lat": 21.088119,
+    "lng": 80.032855,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_118",
+    "name": "Shirpur",
+    "lat": 21.319718,
+    "lng": 74.889291,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_119",
+    "name": "Gondhkhairi/ Kondhali",
+    "lat": 21.137001,
+    "lng": 78.89666,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_120",
+    "name": "Chandimandir",
+    "lat": 30.738834,
+    "lng": 76.897977,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_121",
+    "name": "Dighal",
+    "lat": 28.776746,
+    "lng": 76.621688,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_122",
+    "name": "Dhilwan",
+    "lat": 31.499318,
+    "lng": 75.323065,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_123",
+    "name": "Gangaycha Jatt",
+    "lat": 28.275006,
+    "lng": 76.613363,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_124",
+    "name": "Nijjarpura",
+    "lat": 31.577704,
+    "lng": 74.997072,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_125",
+    "name": "Panipat Elevated",
+    "lat": 29.433664,
+    "lng": 76.97014,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_126",
+    "name": "Gharaunda (Karnal)",
+    "lat": 29.584373,
+    "lng": 76.978792,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_127",
+    "name": "Sambhu(Ghaggar)",
+    "lat": 30.403832,
+    "lng": 76.736825,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_128",
+    "name": "Ladowal",
+    "lat": 30.990725,
+    "lng": 75.790082,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_129",
+    "name": "Karanja (Ghadge)",
+    "lat": 21.162103,
+    "lng": 78.399287,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_130",
+    "name": "Srinagar",
+    "lat": 28.00548,
+    "lng": 77.332377,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_131",
+    "name": "Mahuvan",
+    "lat": 27.337188,
+    "lng": 77.737458,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_132",
+    "name": "Lalanagar",
+    "lat": 25.266948,
+    "lng": 82.491513,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_133",
+    "name": "Salemgarh",
+    "lat": 26.631703,
+    "lng": 84.238336,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_134",
+    "name": "Muziana Hetim",
+    "lat": 26.733855,
+    "lng": 83.808555,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_135",
+    "name": "Chaukadi",
+    "lat": 26.781312,
+    "lng": 82.417008,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_136",
+    "name": "Katoghan",
+    "lat": 25.749487,
+    "lng": 81.170481,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_137",
+    "name": "Gurapalli",
+    "lat": 19.638154,
+    "lng": 85.140017,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_138",
+    "name": "Srirampur",
+    "lat": 20.678864,
+    "lng": 86.165581,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_139",
+    "name": "Gudipada (Old Gangapada)",
+    "lat": 20.20348,
+    "lng": 85.668597,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_140",
+    "name": "Sergarh",
+    "lat": 21.429889,
+    "lng": 86.836645,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_141",
+    "name": "Panikholi",
+    "lat": 20.897746,
+    "lng": 86.21625,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_142",
+    "name": "Manguli",
+    "lat": 20.540387,
+    "lng": 85.96387,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_143",
+    "name": "Krishnavaram",
+    "lat": 17.215448,
+    "lng": 82.1107,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_144",
+    "name": "Rolmamda",
+    "lat": 19.28019,
+    "lng": 78.409222,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_145",
+    "name": "Manoharabad",
+    "lat": 17.801103,
+    "lng": 78.471683,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_146",
+    "name": "Gamjal",
+    "lat": 19.026592,
+    "lng": 78.362705,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_147",
+    "name": "Pippalwada",
+    "lat": 19.781093,
+    "lng": 78.565772,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_148",
+    "name": "Pundag",
+    "lat": 23.542635,
+    "lng": 85.503153,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_149",
+    "name": "Sikandra",
+    "lat": 26.944488,
+    "lng": 76.557567,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_150",
+    "name": "Rajadhok",
+    "lat": 26.859184,
+    "lng": 76.105596,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_151",
+    "name": "Amoli",
+    "lat": 27.101301,
+    "lng": 77.090874,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_152",
+    "name": "Thikariya (Jaipur)",
+    "lat": 26.843328,
+    "lng": 75.615578,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_153",
+    "name": "Barkheda (Chandlai)",
+    "lat": 26.68816,
+    "lng": 75.904726,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_154",
+    "name": "Sonwa (Sonva)",
+    "lat": 26.109852,
+    "lng": 75.744832,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_155",
+    "name": "Lambiya Kalan",
+    "lat": 25.5938407,
+    "lng": 74.5948394,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_156",
+    "name": "Hoskote",
+    "lat": 13.059436,
+    "lng": 77.770734,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_157",
+    "name": "Bagepalli",
+    "lat": 13.793094,
+    "lng": 77.764384,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_158",
+    "name": "Kirasave",
+    "lat": 12.958304,
+    "lng": 76.623563,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_159",
+    "name": "Shanthigrama",
+    "lat": 12.982709,
+    "lng": 76.228913,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_160",
+    "name": "Bann",
+    "lat": 32.838928,
+    "lng": 74.940536,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_161",
+    "name": "Harsa Mansar",
+    "lat": 32.058621,
+    "lng": 75.614278,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_162",
+    "name": "Arjunali",
+    "lat": 19.361481,
+    "lng": 73.165874,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_163",
+    "name": "Mansar (Kamptee - Kanhan Bypass)/ Tekadi",
+    "lat": 21.382332,
+    "lng": 79.253327,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_164",
+    "name": "Borkhedi (Nagpur ByPass)",
+    "lat": 20.85612,
+    "lng": 78.963632,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_165",
+    "name": "Laling (Dhule)",
+    "lat": 20.833054,
+    "lng": 74.754192,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_166",
+    "name": "Vanana",
+    "lat": 21.664929,
+    "lng": 69.709536,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_167",
+    "name": "Ait",
+    "lat": 25.879908,
+    "lng": 79.210298,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_168",
+    "name": "Vighakhet",
+    "lat": 24.789564,
+    "lng": 78.448812,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_169",
+    "name": "Khemana",
+    "lat": 24.241335,
+    "lng": 72.462709,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_170",
+    "name": "Laxmipuram",
+    "lat": 18.05799,
+    "lng": 83.52111,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_171",
+    "name": "Raje(Old Naraur)",
+    "lat": 26.225984,
+    "lng": 86.153489,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_172",
+    "name": "Chilakapalem",
+    "lat": 18.273462,
+    "lng": 83.807965,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_173",
+    "name": "Indalwai",
+    "lat": 18.538266,
+    "lng": 78.239734,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_174",
+    "name": "Sardewadi / Indapur",
+    "lat": 18.844903,
+    "lng": 73.09453,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_175",
+    "name": "Itunja (Barabhari)",
+    "lat": 27.503818,
+    "lng": 80.752729,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_176",
+    "name": "Ahmadpur",
+    "lat": 26.858314,
+    "lng": 81.422445,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_177",
+    "name": "Ronahi",
+    "lat": 26.763728,
+    "lng": 82.006302,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_178",
+    "name": "Nawabganj",
+    "lat": 26.623172,
+    "lng": 80.694765,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_179",
+    "name": "Shahjahanpur",
+    "lat": 27.99978,
+    "lng": 76.430522,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_180",
+    "name": "Manoharpur",
+    "lat": 27.3056399,
+    "lng": 75.9535128,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_181",
+    "name": "Daulatpura",
+    "lat": 27.0868994,
+    "lng": 75.8345568,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_182",
+    "name": "Raikal",
+    "lat": 17.005867,
+    "lng": 78.194493,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_183",
+    "name": "Shakhapur",
+    "lat": 16.535645,
+    "lng": 77.944453,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_184",
+    "name": "Gudur (Hyd-Yadgiri)",
+    "lat": 17.485724,
+    "lng": 78.8217,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_185",
+    "name": "Pullur",
+    "lat": 15.887742,
+    "lng": 78.016978,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_186",
+    "name": "Vempadu",
+    "lat": 17.397831,
+    "lng": 82.67582,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_187",
+    "name": "Panthangi",
+    "lat": 17.232887,
+    "lng": 78.960464,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_188",
+    "name": "Paschim Madati",
+    "lat": 26.568967,
+    "lng": 88.275366,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_189",
+    "name": "Rampura",
+    "lat": 22.24076,
+    "lng": 87.39207,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_190",
+    "name": "Rasoiya Dhamna",
+    "lat": 24.3234,
+    "lng": 85.3881,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_191",
+    "name": "Ghanghri",
+    "lat": 24.030104,
+    "lng": 85.948614,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_192",
+    "name": "Keesara",
+    "lat": 16.718077,
+    "lng": 80.324314,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_193",
+    "name": "Kaza",
+    "lat": 16.3856,
+    "lng": 80.53367,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_194",
+    "name": "Budhanam",
+    "lat": 14.059589,
+    "lng": 79.894624,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_195",
+    "name": "Marur",
+    "lat": 14.499817,
+    "lng": 77.631127,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_196",
+    "name": "Debra",
+    "lat": 22.397144,
+    "lng": 87.522855,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_197",
+    "name": "Sonapetya",
+    "lat": 22.335479,
+    "lng": 87.869477,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_198",
+    "name": "Bellupada",
+    "lat": 19.111282,
+    "lng": 84.699281,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_199",
+    "name": "Madapam",
+    "lat": 18.377344,
+    "lng": 84.000528,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_200",
+    "name": "Aganampudi",
+    "lat": 17.685435,
+    "lng": 83.149931,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_201",
+    "name": "Balgudar",
+    "lat": 25.250014,
+    "lng": 86.034744,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_202",
+    "name": "Saukala",
+    "lat": 24.599579,
+    "lng": 84.70284,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_203",
+    "name": "Ponnambalapatti",
+    "lat": 10.536361,
+    "lng": 78.257067,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_204",
+    "name": "Main Toll (Panchvati colony) (Sheela Nagar)",
+    "lat": 17.713856,
+    "lng": 83.212186,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_205",
+    "name": "Kasaba (Bijapur)",
+    "lat": 16.786741,
+    "lng": 75.739648,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_206",
+    "name": "Venkatachalam (Old Nellore)",
+    "lat": 14.312218,
+    "lng": 79.916296,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_207",
+    "name": "Undavariya/ Sirohi",
+    "lat": 24.633512,
+    "lng": 72.907078,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_208",
+    "name": "Indore Dewas (Indore side)",
+    "lat": 22.959586,
+    "lng": 76.084165,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_209",
+    "name": "Nathavalasa/ Vizianagaram",
+    "lat": 18.057967,
+    "lng": 83.521081,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_210",
+    "name": "Pottipadu",
+    "lat": 16.572341,
+    "lng": 80.862502,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_211",
+    "name": "Kalaparru",
+    "lat": 16.676408,
+    "lng": 81.022129,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_212",
+    "name": "Sullurpet",
+    "lat": 13.744936,
+    "lng": 79.990993,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_213",
+    "name": "Sunambatti (Musunuru)",
+    "lat": 14.851896,
+    "lng": 79.987757,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_214",
+    "name": "Bolapalli",
+    "lat": 15.886754,
+    "lng": 80.070843,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_215",
+    "name": "Tanguturu",
+    "lat": 15.358166,
+    "lng": 80.040105,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_216",
+    "name": "Kasepalli",
+    "lat": 15.061783,
+    "lng": 77.630325,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_217",
+    "name": "Tasawade",
+    "lat": 17.365756,
+    "lng": 74.122928,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_218",
+    "name": "Kini",
+    "lat": 16.8767054,
+    "lng": 74.2983001,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_219",
+    "name": "Amakathadu",
+    "lat": 15.48468,
+    "lng": 77.897632,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_220",
+    "name": "Bhalgam (Belgaum)",
+    "lat": 23.912341,
+    "lng": 71.783991,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_221",
+    "name": "Laxmannath",
+    "lat": 13.1955,
+    "lng": 77.652944,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_222",
+    "name": "Varwade",
+    "lat": 17.957588,
+    "lng": 75.331066,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_223",
+    "name": "Gwalior Bypass (Mehra)",
+    "lat": 26.197589,
+    "lng": 78.240691,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_224",
+    "name": "Surajbari",
+    "lat": 23.233738,
+    "lng": 70.689457,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_225",
+    "name": "Sawaleshwar",
+    "lat": 17.764629,
+    "lng": 75.75589,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_226",
+    "name": "Chitora",
+    "lat": 23.725268,
+    "lng": 78.809133,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_227",
+    "name": "Bakoli",
+    "lat": 23.780036,
+    "lng": 79.464288,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_228",
+    "name": "Guilalu",
+    "lat": 14.053778,
+    "lng": 76.560573,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_229",
+    "name": "Karjeevanhalli",
+    "lat": 13.612918,
+    "lng": 76.953866,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_230",
+    "name": "Navayuga Devanahalli / Sadahalli / Pujanahalli",
+    "lat": 13.19355,
+    "lng": 77.649812,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_231",
+    "name": "Kaythsandra/Tumkur/Chokkanahalli",
+    "lat": 13.302065,
+    "lng": 77.161956,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_232",
+    "name": "Kherki Daula",
+    "lat": 28.395604,
+    "lng": 76.98176,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_233",
+    "name": "Palsit",
+    "lat": 23.178722,
+    "lng": 88.026395,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_234",
+    "name": "Badauri",
+    "lat": 26.126972,
+    "lng": 80.585425,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_235",
+    "name": "Nivedita Setu",
+    "lat": 22.654373,
+    "lng": 88.325118,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_236",
+    "name": "Dankuni",
+    "lat": 22.698891,
+    "lng": 88.288862,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_237",
+    "name": "Jaladhulagori (Dhulagarh)",
+    "lat": 22.57319,
+    "lng": 88.181739,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_238",
+    "name": "Surjapur",
+    "lat": 25.933485,
+    "lng": 87.843205,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_239",
+    "name": "Beliyad",
+    "lat": 23.763627,
+    "lng": 86.79803,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_240",
+    "name": "Hariabara",
+    "lat": 26.152636,
+    "lng": 87.445216,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_241",
+    "name": "Barsoni",
+    "lat": 25.804671,
+    "lng": 87.59074,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_242",
+    "name": "Kharik",
+    "lat": 25.385796,
+    "lng": 87.01154,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_243",
+    "name": "Maranga",
+    "lat": 25.728646,
+    "lng": 87.458249,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_244",
+    "name": "Boriach",
+    "lat": 20.885548,
+    "lng": 73.052162,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_245",
+    "name": "Bhagwada",
+    "lat": 20.43495,
+    "lng": 72.917204,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_246",
+    "name": "Charoti",
+    "lat": 19.890544,
+    "lng": 72.942644,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_247",
+    "name": "Khaniwade",
+    "lat": 19.520454,
+    "lng": 72.916883,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_248",
+    "name": "Dahar",
+    "lat": 29.31922,
+    "lng": 76.918442,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_249",
+    "name": "Makrauli Kalan",
+    "lat": 28.944307,
+    "lng": 76.609736,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_250",
+    "name": "Asanpur",
+    "lat": 26.299831,
+    "lng": 86.630217,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_251",
+    "name": "Hebbalu",
+    "lat": 14.375564,
+    "lng": 76.106875,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_252",
+    "name": "Chennasamudram",
+    "lat": 12.910943,
+    "lng": 79.40121,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_253",
+    "name": "Songir",
+    "lat": 21.050995,
+    "lng": 74.785116,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_254",
+    "name": "IGI Airport",
+    "lat": 28.543853,
+    "lng": 77.115435,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_255",
+    "name": "Shahapur",
+    "lat": 15.357898,
+    "lng": 76.312781,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_256",
+    "name": "Vanagari",
+    "lat": 16.290681,
+    "lng": 75.923324,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_257",
+    "name": "BharthanKarjan",
+    "lat": 22.015027,
+    "lng": 73.115049,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_258",
+    "name": "Deingpasoh",
+    "lat": 25.648846,
+    "lng": 92.047612,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_259",
+    "name": "Thirupparaithurai",
+    "lat": 10.885791,
+    "lng": 78.557668,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_260",
+    "name": "Manavasi",
+    "lat": 10.930934,
+    "lng": 78.215268,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_261",
+    "name": "Lechchumanapatti",
+    "lat": 10.624244,
+    "lng": 78.747767,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_262",
+    "name": "Vantada",
+    "lat": 23.61615,
+    "lng": 73.254472,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_263",
+    "name": "Kathpur",
+    "lat": 23.410181,
+    "lng": 72.828618,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_264",
+    "name": "Lambalakudi",
+    "lat": 10.299776,
+    "lng": 78.770713,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_265",
+    "name": "Ahmedabad Vadodra Expressways",
+    "lat": 22.975844,
+    "lng": 72.650399,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_266",
+    "name": "Attibele (BETL)",
+    "lat": 12.776883,
+    "lng": 77.777119,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_267",
+    "name": "Neelamangala  - Tumkur /Kulumepalya",
+    "lat": 13.114638,
+    "lng": 77.37463,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_268",
+    "name": "Elevated Section/ Electronic City",
+    "lat": 12.847667,
+    "lng": 77.670866,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_269",
+    "name": "Nagarhalla",
+    "lat": 16.292989,
+    "lng": 75.921069,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_270",
+    "name": "Gabbur (MoRTH)",
+    "lat": 15.318834,
+    "lng": 75.139696,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_271",
+    "name": "Narendra (MoRTH)",
+    "lat": 15.488902,
+    "lng": 74.969857,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_272",
+    "name": "Pamban Bridge (MoRTH)",
+    "lat": 9.283225,
+    "lng": 79.215127,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_273",
+    "name": "Kalia Bhomora Bridge (MoRTH)",
+    "lat": 26.567367,
+    "lng": 92.869461,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_274",
+    "name": "Gangadhar Bridge (MoRTH)",
+    "lat": 26.149881,
+    "lng": 89.811537,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_275",
+    "name": "Baggad (MoRTH)",
+    "lat": 25.592575,
+    "lng": 73.904897,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_276",
+    "name": "Bagaliya (MoRTH)",
+    "lat": 25.884014,
+    "lng": 74.160275,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_277",
+    "name": "Bagodara (MoRTH)",
+    "lat": 22.620565,
+    "lng": 72.161496,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_278",
+    "name": "Kharpada (MoRTH)",
+    "lat": 18.844713,
+    "lng": 73.094525,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_279",
+    "name": "Jia Bridge (MoRTH)",
+    "lat": 31.898237,
+    "lng": 77.148301,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_280",
+    "name": "Savitri (MoRTH)",
+    "lat": 18.084885,
+    "lng": 73.462503,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_281",
+    "name": "Nashirabad (MoRTH)",
+    "lat": 21.013505,
+    "lng": 75.670495,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_282",
+    "name": "Fekri (MoRTH)",
+    "lat": 21.039996,
+    "lng": 75.829168,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_283",
+    "name": "Kharegaon (MoRTH)",
+    "lat": 19.2121,
+    "lng": 73.006946,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_284",
+    "name": "Moshi (MoRTH)",
+    "lat": 18.605613,
+    "lng": 73.823404,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_285",
+    "name": "Parvati Bridge (MoRTH)",
+    "lat": 23.471246,
+    "lng": 77.071876,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_286",
+    "name": "Chandloi/ Rajgurunagar (MoRTH)",
+    "lat": 18.844296,
+    "lng": 73.881986,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_287",
+    "name": "Ashoka DSC Katni bypass (MoRTH)",
+    "lat": 23.888883,
+    "lng": 80.384806,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_288",
+    "name": "Kawdipath (MoRTH)",
+    "lat": 18.493223,
+    "lng": 73.992593,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_289",
+    "name": "Kasurdi (MoRTH)",
+    "lat": 18.48286,
+    "lng": 74.234706,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_290",
+    "name": "Koshta (MoRTH)",
+    "lat": 24.550197,
+    "lng": 81.346796,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_291",
+    "name": "Kardha (MoRTH)",
+    "lat": 21.139568,
+    "lng": 79.675405,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_292",
+    "name": "Tiwasa (MoRTH)",
+    "lat": 21.086207,
+    "lng": 78.066995,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_293",
+    "name": "Nardana (MoRTH)",
+    "lat": 21.181762,
+    "lng": 74.823119,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_294",
+    "name": "Baretha (MoRTH)",
+    "lat": 26.320743,
+    "lng": 78.272518,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_295",
+    "name": "Wadakbal (MoRTH)",
+    "lat": 17.534301,
+    "lng": 75.880075,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_296",
+    "name": "Barahi (MoRTH)",
+    "lat": 26.683159,
+    "lng": 78.917937,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_297",
+    "name": "Bamanbore (MoRTH)",
+    "lat": 22.409684,
+    "lng": 71.015587,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_298",
+    "name": "Patancheru (Prograssive Construction Toll) (MoRTH)",
+    "lat": 17.523428,
+    "lng": 78.273342,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_299",
+    "name": "Rawason Bridge (MoRTH)",
+    "lat": 29.842349,
+    "lng": 78.19098,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_300",
+    "name": "Nandghat Bridge (MoRTH)",
+    "lat": 21.766145,
+    "lng": 81.812198,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_301",
+    "name": "Kharun (MoRTH)",
+    "lat": 21.252543,
+    "lng": 81.536664,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_302",
+    "name": "Kosa Nala (MoRTH)",
+    "lat": 21.204731,
+    "lng": 81.337106,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_303",
+    "name": "Kundannur (MoRTH)",
+    "lat": 9.94307,
+    "lng": 76.318202,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_304",
+    "name": "Akkulam (MoRTH)",
+    "lat": 8.520122,
+    "lng": 76.89465,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_305",
+    "name": "Varapuzha Bridge (MoRTH)",
+    "lat": 10.074058,
+    "lng": 76.28012,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_306",
+    "name": "Bhatwada (Godhra)",
+    "lat": 22.792886,
+    "lng": 73.842871,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_307",
+    "name": "Chollang",
+    "lat": 31.623756,
+    "lng": 75.640462,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_308",
+    "name": "Chillakallu",
+    "lat": 16.885015,
+    "lng": 80.160654,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_309",
+    "name": "Korlaphadu",
+    "lat": 17.159677,
+    "lng": 79.474848,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_310",
+    "name": "Hitnal",
+    "lat": 15.323649,
+    "lng": 76.303646,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_311",
+    "name": "Madrak",
+    "lat": 27.804002,
+    "lng": 78.087022,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_312",
+    "name": "Baros",
+    "lat": 27.346247,
+    "lng": 78.032201,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_313",
+    "name": "Khairabad (Karondi)",
+    "lat": 27.558744,
+    "lng": 80.661034,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_314",
+    "name": "Pithai",
+    "lat": 22.413798,
+    "lng": 72.957428,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_315",
+    "name": "Vavadikhurd",
+    "lat": 22.792571,
+    "lng": 73.533274,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_316",
+    "name": "Mulbagal",
+    "lat": 13.148469,
+    "lng": 78.290548,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_317",
+    "name": "Kishorpur (Chandermore)",
+    "lat": 24.563182,
+    "lng": 88.019993,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_318",
+    "name": "Gopgram (Shibpur)",
+    "lat": 24.150449,
+    "lng": 88.18629,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_319",
+    "name": "Babina",
+    "lat": 25.216966,
+    "lng": 78.464471,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_320",
+    "name": "Dahalapara",
+    "lat": 26.476288,
+    "lng": 90.712054,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_321",
+    "name": "Niyamatpur Ekrotiya",
+    "lat": 28.814182,
+    "lng": 78.902248,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_322",
+    "name": "Thriyakhetal",
+    "lat": 28.480289,
+    "lng": 79.283886,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_323",
+    "name": "Guabari",
+    "lat": 26.476592,
+    "lng": 89.756535,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_324",
+    "name": "Fulara",
+    "lat": 22.043538,
+    "lng": 79.418722,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_325",
+    "name": "Chikhalikala",
+    "lat": 21.841921,
+    "lng": 78.433316,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_326",
+    "name": "Jungawani",
+    "lat": 22.377896,
+    "lng": 79.151021,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_327",
+    "name": "Jaitpur",
+    "lat": 22.548497,
+    "lng": 79.600413,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_328",
+    "name": "Dakhina Sekhpur",
+    "lat": 26.524482,
+    "lng": 81.066094,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_329",
+    "name": "Kelwad",
+    "lat": 21.471322,
+    "lng": 78.8726,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_330",
+    "name": "Chullimada Hamlet (Pampampallam)",
+    "lat": 10.81311,
+    "lng": 76.798051,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_331",
+    "name": "Aliyapur",
+    "lat": 26.069752,
+    "lng": 80.163011,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_332",
+    "name": "Khanna",
+    "lat": 25.543293,
+    "lng": 80.060095,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_333",
+    "name": "Baragarh (Barhaguda)",
+    "lat": 21.35447,
+    "lng": 83.681021,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_334",
+    "name": "Ponnarimangalam",
+    "lat": 10.010336,
+    "lng": 76.257977,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_335",
+    "name": "Ladpalwan",
+    "lat": 32.197881,
+    "lng": 75.533697,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_336",
+    "name": "Waryam Nangal",
+    "lat": 31.731947,
+    "lng": 75.041365,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_337",
+    "name": "Deederganj",
+    "lat": 25.570828,
+    "lng": 85.247807,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_338",
+    "name": "Akhepura",
+    "lat": 27.50603,
+    "lng": 75.348401,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_339",
+    "name": "Milanpur",
+    "lat": 21.864457,
+    "lng": 77.961508,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_340",
+    "name": "Khambara",
+    "lat": 21.693812,
+    "lng": 78.387824,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_341",
+    "name": "Patanswangi",
+    "lat": 21.343724,
+    "lng": 79.009038,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_342",
+    "name": "Gegal",
+    "lat": 26.551347,
+    "lng": 74.780202,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_343",
+    "name": "Pipalaz",
+    "lat": 26.158466,
+    "lng": 74.371725,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_344",
+    "name": "Gadoi",
+    "lat": 21.425234,
+    "lng": 70.295437,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_345",
+    "name": "Dari",
+    "lat": 20.961287,
+    "lng": 70.334349,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_346",
+    "name": "Raha(Saragaon)",
+    "lat": 26.245678,
+    "lng": 92.541521,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_347",
+    "name": "Daboka",
+    "lat": 26.114657,
+    "lng": 92.875479,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_348",
+    "name": "Nazira Khat",
+    "lat": 26.100258,
+    "lng": 91.879125,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_349",
+    "name": "Mandal (Vyara)",
+    "lat": 21.134676,
+    "lng": 73.478511,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_350",
+    "name": "Bhatia",
+    "lat": 21.190249,
+    "lng": 72.869085,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_351",
+    "name": "Luharali",
+    "lat": 28.497746,
+    "lng": 77.629298,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_352",
+    "name": "Somna",
+    "lat": 28.062821,
+    "lng": 77.946047,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_353",
+    "name": "Lakholi",
+    "lat": 21.20296,
+    "lng": 81.905328,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_354",
+    "name": "Sundar Nagar",
+    "lat": 21.229353,
+    "lng": 81.607029,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_355",
+    "name": "Raipur",
+    "lat": 26.063535,
+    "lng": 74.05947,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_356",
+    "name": "Indranagar",
+    "lat": 25.828286,
+    "lng": 73.45492,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_357",
+    "name": "Birami",
+    "lat": 25.371114,
+    "lng": 73.201486,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_358",
+    "name": "Uthamam",
+    "lat": 25.033571,
+    "lng": 72.94353,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_359",
+    "name": "Gaddurur",
+    "lat": 13.194218,
+    "lng": 78.545197,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_360",
+    "name": "WEPL Mathani",
+    "lat": 21.139545,
+    "lng": 79.365105,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_361",
+    "name": "Runni",
+    "lat": 26.373615,
+    "lng": 85.493984,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_362",
+    "name": "S V Puram",
+    "lat": 13.525577,
+    "lng": 79.532925,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_363",
+    "name": "Pattaraiperumbudur (temporary TP)",
+    "lat": 13.150776,
+    "lng": 79.834675,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_364",
+    "name": "Paat Sahanipur (Pipli)",
+    "lat": 20.137113,
+    "lng": 85.83902,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_365",
+    "name": "Methoon",
+    "lat": 24.420042,
+    "lng": 76.503896,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_366",
+    "name": "Kaniyur",
+    "lat": 11.012827,
+    "lng": 77.073181,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_367",
+    "name": "Mokha",
+    "lat": 22.934663,
+    "lng": 69.801655,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_368",
+    "name": "Eethakota",
+    "lat": 16.715205,
+    "lng": 81.827876,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_369",
+    "name": "Unguturu",
+    "lat": 16.823729,
+    "lng": 81.430664,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_370",
+    "name": "Chagalmarri",
+    "lat": 14.979577,
+    "lng": 78.574764,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_371",
+    "name": "Palempalli",
+    "lat": 14.513518,
+    "lng": 78.79121,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_372",
+    "name": "Pahammawlein",
+    "lat": 25.99328,
+    "lng": 91.860491,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_373",
+    "name": "Rohad",
+    "lat": 28.754563,
+    "lng": 76.795216,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_374",
+    "name": "Kishorpura",
+    "lat": 25.17025,
+    "lng": 76.130522,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_375",
+    "name": "Mandawada (Gomati)",
+    "lat": 25.20385,
+    "lng": 73.814701,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_376",
+    "name": "Negadiya",
+    "lat": 25.704011,
+    "lng": 74.061836,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_377",
+    "name": "Surathkal",
+    "lat": 12.993098,
+    "lng": 74.792333,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_378",
+    "name": "Bhiknoor",
+    "lat": 18.205251,
+    "lng": 78.398261,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_379",
+    "name": "Kunwarpur",
+    "lat": 25.674873,
+    "lng": 82.32499,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_380",
+    "name": "Nuruddinpur",
+    "lat": 26.035838,
+    "lng": 81.43825,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_381",
+    "name": "Chuipali",
+    "lat": 21.299829,
+    "lng": 82.94286,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_382",
+    "name": "Dhank",
+    "lat": 21.226901,
+    "lng": 82.422438,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_383",
+    "name": "Vasad",
+    "lat": 22.453254,
+    "lng": 73.070539,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_384",
+    "name": "Radhvanaj (Kheda)",
+    "lat": 22.715971,
+    "lng": 72.740887,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_385",
+    "name": "Madina Korsan",
+    "lat": 28.927049,
+    "lng": 76.442169,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_386",
+    "name": "Ramayana",
+    "lat": 29.100833,
+    "lng": 75.885093,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_387",
+    "name": "Para",
+    "lat": 25.788339,
+    "lng": 74.338933,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_388",
+    "name": "Saidpur Patedha",
+    "lat": 25.802861,
+    "lng": 85.283461,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_389",
+    "name": "Lilamba",
+    "lat": 26.084278,
+    "lng": 74.001389,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_390",
+    "name": "Aaini",
+    "lat": 27.292105,
+    "lng": 81.54465,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_391",
+    "name": "Gulalpurva",
+    "lat": 27.825548,
+    "lng": 81.527252,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_392",
+    "name": "Sonvay (Indore - Khalghat)",
+    "lat": 22.607365,
+    "lng": 75.794134,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_393",
+    "name": "Chalakwadi",
+    "lat": 19.170738,
+    "lng": 74.074993,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_394",
+    "name": "Hivargaon Pavsa",
+    "lat": 19.516452,
+    "lng": 74.201583,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_395",
+    "name": "Nimbaniya Ki Dhani (Bayatu)",
+    "lat": 25.865638,
+    "lng": 71.616734,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_396",
+    "name": "Gundmi",
+    "lat": 13.47641,
+    "lng": 74.713082,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_397",
+    "name": "Hazamady",
+    "lat": 13.108245,
+    "lng": 74.784562,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_398",
+    "name": "Talapady",
+    "lat": 12.75958,
+    "lng": 74.874087,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_399",
+    "name": "Kadthal",
+    "lat": 16.985586,
+    "lng": 78.50172,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_400",
+    "name": "Konetipuram",
+    "lat": 16.608082,
+    "lng": 78.677722,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_401",
+    "name": "Chinthapally",
+    "lat": 17.471578,
+    "lng": 79.980527,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_402",
+    "name": "Lakshmipur",
+    "lat": 24.822455,
+    "lng": 87.966864,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_403",
+    "name": "Chakseherdi (Gajol) Bagsarai",
+    "lat": 25.195872,
+    "lng": 88.182566,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_404",
+    "name": "Mahanth Maniyari",
+    "lat": 26.038799,
+    "lng": 85.447437,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_405",
+    "name": "Govindpur",
+    "lat": 25.590289,
+    "lng": 85.875945,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_406",
+    "name": "Konder",
+    "lat": 26.537213,
+    "lng": 77.086068,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_407",
+    "name": "Chila Chond",
+    "lat": 26.613002,
+    "lng": 77.515359,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_408",
+    "name": "Raibha",
+    "lat": 27.177493,
+    "lng": 77.811532,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_409",
+    "name": "Mada",
+    "lat": 33.024637,
+    "lng": 75.252118,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_410",
+    "name": "Nashri",
+    "lat": 33.174771,
+    "lng": 75.303421,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_411",
+    "name": "Banthadi",
+    "lat": 27.275167,
+    "lng": 74.351659,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_412",
+    "name": "Tamdoli",
+    "lat": 26.870978,
+    "lng": 74.293475,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_413",
+    "name": "Rupa Kheda",
+    "lat": 25.110565,
+    "lng": 73.988241,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_414",
+    "name": "Mujras",
+    "lat": 25.274995,
+    "lng": 74.492879,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_415",
+    "name": "SixML",
+    "lat": 29.810574,
+    "lng": 73.875389,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_416",
+    "name": "Lasedi",
+    "lat": 28.712002,
+    "lng": 75.481566,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_417",
+    "name": "Dhadhar",
+    "lat": 28.329757,
+    "lng": 75.05592,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_418",
+    "name": "Shobhasar",
+    "lat": 27.76326,
+    "lng": 74.723371,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_419",
+    "name": "Rapur",
+    "lat": 14.210397,
+    "lng": 79.560418,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_420",
+    "name": "Chintalapalem",
+    "lat": 13.788513,
+    "lng": 79.589622,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_421",
+    "name": "Badava",
+    "lat": 16.850428,
+    "lng": 80.633633,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_422",
+    "name": "Shenbagampettai",
+    "lat": 10.158744,
+    "lng": 78.651128,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_423",
+    "name": "Jasnathnagar",
+    "lat": 26.308858,
+    "lng": 72.914295,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_424",
+    "name": "Motisar (Khanori)",
+    "lat": 26.570811,
+    "lng": 72.327192,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_425",
+    "name": "Morani (Pokaran)",
+    "lat": 26.889721,
+    "lng": 71.981819,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_426",
+    "name": "Mekalavaripalli",
+    "lat": 15.412411,
+    "lng": 79.497541,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_427",
+    "name": "Raviguntapalli",
+    "lat": 15.197922,
+    "lng": 79.450868,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_428",
+    "name": "Brahmanapalli",
+    "lat": 14.736039,
+    "lng": 79.049052,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_429",
+    "name": "Hasanpur (Sainkul)",
+    "lat": 21.147001,
+    "lng": 86.117538,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_430",
+    "name": "Khantaghar (Dhenkikote)",
+    "lat": 21.508544,
+    "lng": 85.826198,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_431",
+    "name": "Banajodi (Padmapur)",
+    "lat": 21.710167,
+    "lng": 85.5836,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_432",
+    "name": "Khadda",
+    "lat": 24.522264,
+    "lng": 81.365223,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_433",
+    "name": "Sonvarsaa",
+    "lat": 24.395853,
+    "lng": 81.802372,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_434",
+    "name": "Landhari",
+    "lat": 29.292067,
+    "lng": 75.648213,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_435",
+    "name": "Narwana",
+    "lat": 29.578554,
+    "lng": 76.088477,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_436",
+    "name": "Badopatti",
+    "lat": 29.299141,
+    "lng": 75.819719,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_437",
+    "name": "Chaudhriwas",
+    "lat": 28.99832,
+    "lng": 75.604417,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_438",
+    "name": "Kalajhar",
+    "lat": 30.265789,
+    "lng": 76.148309,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_439",
+    "name": "Badbar",
+    "lat": 30.247772,
+    "lng": 75.640226,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_440",
+    "name": "Bhagan",
+    "lat": 29.060626,
+    "lng": 77.064081,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_441",
+    "name": "Sosokhurd",
+    "lat": 23.548753,
+    "lng": 85.756866,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_442",
+    "name": "Tand Balidih",
+    "lat": 23.668354,
+    "lng": 86.045229,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_443",
+    "name": "Doli",
+    "lat": 26.062927,
+    "lng": 72.673202,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_444",
+    "name": "Palaya Gandharvakottai",
+    "lat": 10.612499,
+    "lng": 79.0306,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_445",
+    "name": "Mangalgi",
+    "lat": 17.745596,
+    "lng": 77.317882,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_446",
+    "name": "Kamkole",
+    "lat": 17.645717,
+    "lng": 77.820114,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_447",
+    "name": "Yedeshi",
+    "lat": 0,
+    "lng": 0,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_448",
+    "name": "Tamalwadi",
+    "lat": 1,
+    "lng": 1,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_449",
+    "name": "Deoria",
+    "lat": 28.930785,
+    "lng": 79.475734,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_450",
+    "name": "Jogipura",
+    "lat": 24.097278,
+    "lng": 76.988952,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_451",
+    "name": "Pagara",
+    "lat": 24.517835,
+    "lng": 77.186491,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_452",
+    "name": "Sakatpura(LHS)(Staggered)",
+    "lat": 25.155846,
+    "lng": 75.781932,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_453",
+    "name": "Nayagaon(RHS) (Staggered)",
+    "lat": 25.132506,
+    "lng": 75.796565,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_454",
+    "name": "Mandava",
+    "lat": 21.702698,
+    "lng": 73.059975,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_455",
+    "name": "Basapuram",
+    "lat": 14.708361,
+    "lng": 78.872406,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_456",
+    "name": "Nannur",
+    "lat": 15.741038,
+    "lng": 78.070783,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_457",
+    "name": "Purankhedi",
+    "lat": 25.245762,
+    "lng": 77.615602,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_458",
+    "name": "Banskopa",
+    "lat": 23.491222,
+    "lng": 87.376575,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_459",
+    "name": "Semri",
+    "lat": 25.637124,
+    "lng": 78.875044,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_460",
+    "name": "Banushi",
+    "lat": 28.941,
+    "lng": 79.8157,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_461",
+    "name": "Hathitala",
+    "lat": 25.562272,
+    "lng": 71.407666,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_462",
+    "name": "Bor Charnan",
+    "lat": 25.105861,
+    "lng": 71.549558,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_463",
+    "name": "Harimma",
+    "lat": 27.26549,
+    "lng": 73.856074,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_464",
+    "name": "Nimbi Jodha",
+    "lat": 27.30534,
+    "lng": 74.1915,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_465",
+    "name": "Jindpur",
+    "lat": 25.865,
+    "lng": 80.691,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_466",
+    "name": "Aihar",
+    "lat": 26.197,
+    "lng": 81.0326,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_467",
+    "name": "Limdi",
+    "lat": 25.467,
+    "lng": 41.293,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_468",
+    "name": "Milk Majra",
+    "lat": 30.21128,
+    "lng": 77.194411,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_469",
+    "name": "Durgamvaripalli",
+    "lat": 13.7143,
+    "lng": 78.873269,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_470",
+    "name": "Buchireddypalem",
+    "lat": 14.543265,
+    "lng": 79.862348,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_471",
+    "name": "DC PALLI",
+    "lat": 14.6854,
+    "lng": 79.5156,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_472",
+    "name": "Zidda",
+    "lat": 40.32217,
+    "lng": 9.3264,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_473",
+    "name": "Leherabega",
+    "lat": 30.233092,
+    "lng": 75.102496,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_474",
+    "name": "Paind",
+    "lat": 30.4,
+    "lng": 75.5,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_475",
+    "name": "Dhareri jattan",
+    "lat": 76.499529,
+    "lng": 30.39255,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_476",
+    "name": "Azizpur",
+    "lat": 76.759305,
+    "lng": 30.5930556,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_477",
+    "name": "Bhavdeen",
+    "lat": 29.29914,
+    "lng": 75.81971,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_478",
+    "name": "Halaharvi",
+    "lat": 15.818714,
+    "lng": 77.453999,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_479",
+    "name": "Ramdevra",
+    "lat": 27.0175781,
+    "lng": 72.0194626,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_480",
+    "name": "LATHI",
+    "lat": 27.0298347,
+    "lng": 71.446434,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_481",
+    "name": "Mudkhera",
+    "lat": 25.668,
+    "lng": 77.73,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_482",
+    "name": "Panihaar",
+    "lat": 26.0978,
+    "lng": 78.0158,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_483",
+    "name": "Salasar",
+    "lat": 28.00137,
+    "lng": 73.06546,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_484",
+    "name": "Nokhra",
+    "lat": 27.45006,
+    "lng": 72.40303,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_485",
+    "name": "Kheerwa",
+    "lat": 27.2827777,
+    "lng": 72.3230556,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_486",
+    "name": "Khuian Malkan",
+    "lat": 29.880727,
+    "lng": 74.793736,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_487",
+    "name": "Pasyih",
+    "lat": 25.4817,
+    "lng": 92.2882,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_488",
+    "name": "Lomshinong",
+    "lat": 25.706,
+    "lng": 92.3756,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_489",
+    "name": "Davuluru",
+    "lat": 16.4126432,
+    "lng": 80.7859938,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_490",
+    "name": "Pandutala",
+    "lat": 80.8085833,
+    "lng": 22.3905556,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_491",
+    "name": "Thiruppachethi",
+    "lat": 9.780999,
+    "lng": 78.335299,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_492",
+    "name": "Mohammad Ibrahimpur",
+    "lat": 28.5798201,
+    "lng": 78.7958556,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_493",
+    "name": "Dumberwadi",
+    "lat": 19.24404,
+    "lng": 74.013274,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_494",
+    "name": "Sonho",
+    "lat": 25.924072,
+    "lng": 84.967898,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_495",
+    "name": "Pokhraira",
+    "lat": 26.055956,
+    "lng": 85.182733,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_496",
+    "name": "Belon",
+    "lat": 28.1859646,
+    "lng": 78.3630407,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_497",
+    "name": "Hadawa",
+    "lat": 27.08318,
+    "lng": 83.232649,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_498",
+    "name": "Chhajarsi",
+    "lat": 28.70178,
+    "lng": 77.621477,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_499",
+    "name": "Bara",
+    "lat": 26.6293177,
+    "lng": 81.3336137,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_500",
+    "name": "Asroga",
+    "lat": 26.18151,
+    "lng": 81.56264,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_501",
+    "name": "Kherwasani",
+    "lat": 24.122464,
+    "lng": 80.599361,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_502",
+    "name": "Bogalur",
+    "lat": 9.398195,
+    "lng": 78.71394,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_503",
+    "name": "Dhoki",
+    "lat": 19.15597,
+    "lng": 74.41116,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_504",
+    "name": "Majhgawan",
+    "lat": 23.48399,
+    "lng": 80.30481,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_505",
+    "name": "Pathoroundi",
+    "lat": 23.24908,
+    "lng": 82.05883,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_506",
+    "name": "Shahdol",
+    "lat": 23.28186,
+    "lng": 81.429282,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_507",
+    "name": "Chhapra",
+    "lat": 23.657222,
+    "lng": 76.614862,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_508",
+    "name": "Rojwas",
+    "lat": 23.330918,
+    "lng": 76.175973,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_509",
+    "name": "Dattigaon",
+    "lat": 22.741519,
+    "lng": 74.836537,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_510",
+    "name": "Methwada",
+    "lat": 22.6731595,
+    "lng": 75.545744,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_511",
+    "name": "Muthojipet",
+    "lat": 18.002244,
+    "lng": 79.903564,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_512",
+    "name": "Amdi",
+    "lat": 26.3827777,
+    "lng": 80.8863888,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_513",
+    "name": "Pargaon",
+    "lat": 18.63166,
+    "lng": 75.6977,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_514",
+    "name": "Padalshingi",
+    "lat": 19.3181,
+    "lng": 75.7487,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_515",
+    "name": "Bhokarwadi Maliwadi",
+    "lat": 19.60083,
+    "lng": 75.6152,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_516",
+    "name": "Jagtara",
+    "lat": 20.604749,
+    "lng": 81.419576,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_517",
+    "name": "Mashora",
+    "lat": 19.662176,
+    "lng": 81.658696,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_518",
+    "name": "Badayiguda",
+    "lat": 19.161402,
+    "lng": 81.98472,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_519",
+    "name": "Saliwada",
+    "lat": 80.030222,
+    "lng": 23.105109,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_520",
+    "name": "Aksada",
+    "lat": 26.7024838,
+    "lng": 82.6745948,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_521",
+    "name": "Chhapwa",
+    "lat": 27.2644,
+    "lng": 83.3643,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_522",
+    "name": "Nainsar",
+    "lat": 26.9209,
+    "lng": 83.297,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_523",
+    "name": "Mohtara",
+    "lat": 23.418277,
+    "lng": 80.078098,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_524",
+    "name": "Odhaki Paipkhar",
+    "lat": 24.404862,
+    "lng": 81.079578,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_525",
+    "name": "Gollaprolu",
+    "lat": 17.1387,
+    "lng": 82.2718,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_526",
+    "name": "Mathur",
+    "lat": 13.1766,
+    "lng": 80.2449,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_527",
+    "name": "Dilawarpur",
+    "lat": 19.0990474,
+    "lng": 78.2133991,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_528",
+    "name": "Mandana",
+    "lat": 24.966405,
+    "lng": 75.93462,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_529",
+    "name": "Kair Fakir ki Dhani",
+    "lat": 26.630978,
+    "lng": 71.205575,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_530",
+    "name": "Pidhi",
+    "lat": 26.3395,
+    "lng": 82.244267,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_531",
+    "name": "Aindhi",
+    "lat": 26.245278,
+    "lng": 81.593749,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_532",
+    "name": "Sabli",
+    "lat": 28.1602222,
+    "lng": 80.1005555,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_533",
+    "name": "Patgaon",
+    "lat": 26.565182,
+    "lng": 90.238792,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_534",
+    "name": "Kannolli",
+    "lat": 16.786827,
+    "lng": 75.739668,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_535",
+    "name": "Harval",
+    "lat": 67.7752043,
+    "lng": 18.82095,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_536",
+    "name": "Talmod",
+    "lat": 17.826227,
+    "lng": 76.74068,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_537",
+    "name": "Phulwadi",
+    "lat": 17.79978,
+    "lng": 76.193308,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_538",
+    "name": "Boharipar (Khursi)",
+    "lat": 23.047864,
+    "lng": 79.907251,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_539",
+    "name": "Sehatganj",
+    "lat": 23.257753,
+    "lng": 77.638119,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_540",
+    "name": "Husnapur",
+    "lat": 20.551197,
+    "lng": 78.039108,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_541",
+    "name": "Belekeri",
+    "lat": 14.710895,
+    "lng": 74.2936251,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_542",
+    "name": "Holegadde",
+    "lat": 14.3593904,
+    "lng": 74.419155,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_543",
+    "name": "Shirur",
+    "lat": 13.9334681,
+    "lng": 74.5966233,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_544",
+    "name": "Sali Bamandanga",
+    "lat": 23.629195,
+    "lng": 88.36003,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_545",
+    "name": "Nawabganj (Adampur)only entry  exit lane plaza at Allahabad Bypass",
+    "lat": 25.558856,
+    "lng": 81.772125,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_546",
+    "name": "Ashiv",
+    "lat": 18.127774,
+    "lng": 76.358179,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_547",
+    "name": "Namkhna",
+    "lat": 21.7575,
+    "lng": 88.233611,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_548",
+    "name": "Mudhipar",
+    "lat": 27.2038,
+    "lng": 77.5011,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_549",
+    "name": "Bhojpuri",
+    "lat": 21.950763,
+    "lng": 82.061806,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_550",
+    "name": "Haladgaon",
+    "lat": 20.857818,
+    "lng": 78.876369,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_551",
+    "name": "Vadodara",
+    "lat": 22.96882,
+    "lng": 72.65872,
+    "price": 60,
+    "currency": "INR"
+  }
+]

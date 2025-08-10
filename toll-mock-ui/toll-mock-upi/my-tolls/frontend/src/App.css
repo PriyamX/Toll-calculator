@@ -1,0 +1,458 @@
+/* App.css - Modern Toll Calculator UI */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.header {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 20px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.header h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.header p {
+  color: #666;
+  font-size: 1.1em;
+}
+
+/* Input Section */
+.input-section {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  /* Debug: Ensure visibility */
+  position: relative;
+  z-index: 1000;
+}
+
+.input-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  gap: 20px;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  flex: 1;
+  min-width: 200px;
+  /* Debug: Ensure visibility */
+  position: relative;
+  z-index: 1001;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.9em;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background: white;
+  /* Debug: Ensure visibility and interaction */
+  position: relative;
+  z-index: 1002;
+  color: #333;
+  cursor: text;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+}
+
+.input-field::placeholder {
+  color: #999;
+}
+
+/* Debug: Highlight input fields */
+.input-field:hover {
+  border-color: #4CAF50;
+  background-color: #f9f9f9;
+}
+
+.calculate-btn {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #4CAF50, #45a049);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* Debug: Ensure visibility and interaction */
+  position: relative;
+  z-index: 1003;
+}
+
+.calculate-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(76, 175, 80, 0.3);
+}
+
+.calculate-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Error and Info Messages */
+.error-message {
+  background: #ffebee;
+  color: #c62828;
+  padding: 15px 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  border-radius: 8px;
+  border-left: 4px solid #c62828;
+  font-weight: 500;
+}
+
+.info-message {
+  background: #e3f2fd;
+  color: #1565c0;
+  padding: 15px 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  border-radius: 8px;
+  border-left: 4px solid #1565c0;
+  font-weight: 500;
+}
+
+/* Main Content */
+.main-content {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  min-height: 600px;
+}
+
+/* Map Section */
+.map-section {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.map-container {
+  position: relative;
+  height: 600px;
+}
+
+.google-map {
+  width: 100%;
+  height: 100%;
+  /* Debug: Ensure map is visible */
+  background-color: #f0f0f0;
+  border: 2px dashed #ccc;
+}
+
+.map-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #666;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #4CAF50;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 15px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Results Section */
+.results-section {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.results-content h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+/* Route Summary */
+.route-summary {
+  margin-bottom: 30px;
+}
+
+.summary-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #4CAF50;
+}
+
+.summary-item.total-toll {
+  background: #e8f5e8;
+  border-left-color: #2e7d32;
+}
+
+.summary-item .label {
+  font-weight: 600;
+  color: #333;
+}
+
+.summary-item .value {
+  font-weight: 700;
+  color: #4CAF50;
+  font-size: 1.1em;
+}
+
+.summary-item.total-toll .value {
+  color: #2e7d32;
+  font-size: 1.2em;
+}
+
+/* Toll Details */
+.toll-details h3 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+.toll-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.toll-item {
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #ff9800;
+}
+
+.toll-item:hover {
+  background: #f0f0f0;
+}
+
+.toll-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.toll-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.toll-price {
+  font-weight: 700;
+  color: #ff9800;
+  font-size: 1.1em;
+}
+
+.toll-location {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.toll-highway {
+  color: #888;
+  font-size: 0.8em;
+  margin-top: 3px;
+}
+
+/* API Info */
+.api-info {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.api-info h4 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.api-sources {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.api-source {
+  background: #e3f2fd;
+  color: #1565c0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+/* Welcome Message */
+.welcome-message {
+  text-align: center;
+  color: #666;
+}
+
+.welcome-message h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+
+.welcome-message p {
+  margin-bottom: 25px;
+  font-size: 1.1em;
+}
+
+.example-routes h4 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.example-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.example-btn {
+  padding: 10px 20px;
+  background: #f0f0f0;
+  color: #333;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.example-btn:hover {
+  background: #e0e0e0;
+  border-color: #4CAF50;
+  color: #4CAF50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .input-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .calculate-btn {
+    width: 100%;
+  }
+  
+  .map-container {
+    height: 400px;
+  }
+  
+  .results-section {
+    max-height: none;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+  }
+  
+  .input-group {
+    min-width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.8em;
+  }
+  
+  .header p {
+    font-size: 1em;
+  }
+  
+  .input-section {
+    padding: 20px 0;
+  }
+  
+  .main-content {
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+  
+  .results-section {
+    padding: 20px;
+  }
+}

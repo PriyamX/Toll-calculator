@@ -1,0 +1,26 @@
+[
+  {
+    "id": "TOLL_1",
+    "name": "Kherki Daula Toll Plaza",
+    "lat": 28.408,
+    "lng": 76.987,
+    "price": 60,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_2",
+    "name": "Ambience Mall Toll Plaza",
+    "lat": 28.504,
+    "lng": 77.096,
+    "price": 30,
+    "currency": "INR"
+  },
+  {
+    "id": "TOLL_3",
+    "name": "Manesar Toll Plaza",
+    "lat": 28.3543,
+    "lng": 76.9405,
+    "price": 80,
+    "currency": "INR"
+  }
+]
