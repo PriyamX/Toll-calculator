@@ -199,9 +199,9 @@ export default function App() {
           return;
         }
         
-        const mapInstance = new window.google.maps.Map(mapRef.current, {
+          const mapInstance = new window.google.maps.Map(mapRef.current, {
           center: { lat: 28.6139, lng: 77.2090 }, // Default to Delhi coordinates
-          zoom: 8,
+            zoom: 8,
         });
         
         // Verify the map was created successfully
@@ -215,8 +215,8 @@ export default function App() {
         }
         
         setMapInitializing(false);
-      } catch (err) {
-        console.error('App.jsx: Error initializing map:', err);
+        } catch (err) {
+          console.error('App.jsx: Error initializing map:', err);
         setMapInitializing(false);
         
         // If it's an IntersectionObserver error, try to recover
@@ -245,7 +245,7 @@ export default function App() {
   const handleGoogleMapsLoaded = () => {
     console.log('App.jsx: Google Maps loaded');
     setGoogleMapsLoaded(true);
-  };
+    };
 
   // Initialize Google Maps
   // Check if Google Maps is already loaded when component mounts
@@ -311,7 +311,7 @@ export default function App() {
     return () => {
       if (mapInitTimeoutRef.current) {
         clearTimeout(mapInitTimeoutRef.current);
-      }
+        }
       setMapInitializing(false);
       setMapContainerReady(false);
       setMapElementStable(false);

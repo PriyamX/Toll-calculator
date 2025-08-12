@@ -2,6 +2,15 @@
 import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, Polyline } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+
+// Fix Leaflet icon issues
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png',
+  iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+});
 
 // Default path data
 const defaultPath = [
@@ -25,8 +34,8 @@ export default function App() {
   const [destination, setDestination] = useState('Kanpur');
 
   useEffect(() => {
-    // Fetch toll data from the NHAI API
-    fetch(`http://localhost:3002/api/route-tolls?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}`)
+    // Fetch toll data from the Comprehensive Toll API
+    fetch(`http://localhost:3005/api/comprehensive-route-tolls?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -34,6 +43,7 @@ export default function App() {
         return response.json();
       })
       .then(tollData => {
+        console.log('Received toll data:', tollData);
         setData({
           path: tollData.path || defaultPath,
           toll_booths: tollData.tolls.map(toll => ({
@@ -55,8 +65,18 @@ export default function App() {
       });
   }, [origin, destination]);
 
-  const center = [data.path[1].lat, data.path[1].lng];
-  const polyline = data.path.map(p => [p.lat, p.lng]);
+  // Safe access to path data with fallbacks
+  const center = data.path && data.path.length > 1 ? [data.path[1].lat, data.path[1].lng] : [28.7041, 77.1025]; // Default to Delhi
+  const polyline = data.path && data.path.length > 0 ? data.path.map(p => [p.lat, p.lng]) : defaultPath.map(p => [p.lat, p.lng]);
+  
+  console.log('Current state:', { 
+    loading: data.loading, 
+    error: data.error, 
+    pathLength: data.path?.length, 
+    tollBoothsLength: data.toll_booths?.length,
+    center,
+    polylineLength: polyline?.length
+  });
 
   // Handle loading state
   if (data.loading) {
@@ -83,7 +103,7 @@ export default function App() {
     setData(prev => ({ ...prev, loading: true, error: null }));
     
     // Fetch toll data for the new route
-    fetch(`http://localhost:3002/api/route-tolls?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}`)
+    fetch(`http://localhost:3005/api/comprehensive-route-tolls?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -91,6 +111,7 @@ export default function App() {
         return response.json();
       })
       .then(tollData => {
+        console.log('Route submit - Received toll data:', tollData);
         setData({
           path: tollData.path || defaultPath,
           toll_booths: tollData.tolls.map(toll => ({

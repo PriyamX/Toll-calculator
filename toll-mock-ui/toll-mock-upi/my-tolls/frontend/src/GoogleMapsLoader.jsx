@@ -24,7 +24,7 @@ function GoogleMapsLoader({ onLoad }) {
         // Wait a bit more to ensure Google Maps is fully initialized
         setTimeout(() => {
           if (window.google && window.google.maps) {
-            setIsLoaded(true);
+        setIsLoaded(true);
             if (onLoad) onLoad();
           }
         }, 100);
@@ -63,7 +63,7 @@ function GoogleMapsLoader({ onLoad }) {
       const checkGoogleMaps = () => {
         if (window.google && window.google.maps && typeof window.google.maps.Map === 'function') {
           console.log('GoogleMapsLoader: Google Maps fully loaded and ready');
-          setIsLoaded(true);
+      setIsLoaded(true);
           if (onLoad) onLoad();
         } else {
           console.log('GoogleMapsLoader: Waiting for Google Maps to be fully ready...');
