@@ -16,6 +16,8 @@
     "enhanced-v2-dev": "nodemon enhanced_server_v2.js",
     "comprehensive": "node comprehensive_toll_server.js",
     "comprehensive-dev": "nodemon comprehensive_toll_server.js",
+    "enhanced-nhai": "node enhanced_nhai_backend.js",
+    "enhanced-nhai-dev": "nodemon enhanced_nhai_backend.js",
     "start": "node start-dev.js"
   },
   "dependencies": {

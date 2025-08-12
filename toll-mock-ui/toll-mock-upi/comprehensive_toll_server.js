@@ -322,6 +322,91 @@ function makeRequest(url, options = {}) {
   });
 }
 
+// Decode an encoded Google polyline string into an array of { lat, lng }
+function decodePolyline(encoded) {
+  if (!encoded || typeof encoded !== 'string') {
+    return [];
+  }
+  let index = 0;
+  const len = encoded.length;
+  const path = [];
+  let lat = 0;
+  let lng = 0;
+
+  while (index < len) {
+    let b;
+    let shift = 0;
+    let result = 0;
+    do {
+      b = encoded.charCodeAt(index++) - 63;
+      result |= (b & 0x1f) << shift;
+      shift += 5;
+    } while (b >= 0x20);
+    const dlat = (result & 1) ? ~(result >> 1) : (result >> 1);
+    lat += dlat;
+
+    shift = 0;
+    result = 0;
+    do {
+      b = encoded.charCodeAt(index++) - 63;
+      result |= (b & 0x1f) << shift;
+      shift += 5;
+    } while (b >= 0x20);
+    const dlng = (result & 1) ? ~(result >> 1) : (result >> 1);
+    lng += dlng;
+
+    path.push({ lat: lat / 1e5, lng: lng / 1e5 });
+  }
+  return path;
+}
+
+// Get route using Google Directions API
+async function getRouteGoogleDirections(origin, destination) {
+  try {
+    const apiKey = process.env.GOOGLE_MAPS_KEY;
+    if (!apiKey || apiKey === 'YOUR_GOOGLE_KEY') {
+      throw new Error('Missing GOOGLE_MAPS_KEY');
+    }
+
+    const params = new URLSearchParams({
+      origin,
+      destination,
+      mode: 'driving',
+      alternatives: 'false',
+      key: apiKey
+    }).toString();
+
+    const url = `https://maps.googleapis.com/maps/api/directions/json?${params}`;
+    const response = await makeRequest(url, { headers: { Accept: 'application/json' } });
+
+    if (response && response.status === 'OK' && response.routes && response.routes.length > 0) {
+      const route = response.routes[0];
+      const overview = route.overview_polyline && route.overview_polyline.points;
+      const legs = route.legs || [];
+
+      let distanceMeters = 0;
+      let durationSeconds = 0;
+      for (const leg of legs) {
+        distanceMeters += (leg.distance && leg.distance.value) || 0;
+        durationSeconds += (leg.duration && leg.duration.value) || 0;
+      }
+
+      const path = overview ? decodePolyline(overview) : [];
+
+      return {
+        path,
+        distance: distanceMeters / 1000, // km
+        duration: durationSeconds / 60, // minutes
+        coordinates: null
+      };
+    }
+    throw new Error(`Google Directions failed: ${response && response.status}`);
+  } catch (error) {
+    console.error('Google Directions error:', error.message);
+    return null;
+  }
+}
+
 // Get coordinates from OpenStreetMap Nominatim (free)
 async function getCoordinates(place) {
   try {
@@ -424,20 +509,33 @@ function generateMockRouteData(origin, destination) {
 // Comprehensive route tolls endpoint
 app.get('/api/comprehensive-route-tolls', async (req, res) => {
   try {
-    const { origin, destination, vehicleType = 'car_single' } = req.query;
+    const { origin, destination, vehicleType = 'car_single', provider } = req.query;
     
     if (!origin || !destination) {
       return res.status(400).json({ error: 'Origin and destination are required' });
     }
     
-    console.log(`Fetching comprehensive route data for: ${origin} → ${destination}`);
+    console.log(`Fetching comprehensive route data for: ${origin} → ${destination} ${provider ? `(provider=${provider})` : ''}`);
     
-    // Get route from OpenRouteService (free)
-    let routeData = await getRouteOpenRoute(origin, destination);
+    // Choose provider: google -> openroute -> mock and track which one succeeded
+    let routeData = null;
+    let sourceUsed = 'mock';
+    if (provider === 'google') {
+      routeData = await getRouteGoogleDirections(origin, destination);
+      if (routeData) sourceUsed = 'google';
+    }
+    if (!routeData) {
+      const openRoute = await getRouteOpenRoute(origin, destination);
+      if (openRoute) {
+        routeData = openRoute;
+        sourceUsed = 'openroute';
+      }
+    }
     
     // Fallback to mock data if API fails
     if (!routeData) {
       routeData = generateMockRouteData(origin, destination);
+      sourceUsed = 'mock';
     }
     
     // Find toll plazas near the route
@@ -472,13 +570,80 @@ app.get('/api/comprehensive-route-tolls', async (req, res) => {
       duration: routeData.duration ? `${Math.round(routeData.duration)} min` : 'Unknown',
       vehicle_type: vehicleType,
       toll_count: formattedTolls.length,
-      data_source: routeData ? 'OpenRouteService API + Geohacker Database' : 'Mock Data + Geohacker Database',
+      data_source: (
+        sourceUsed === 'google' ? 'Google Directions API + Geohacker Database' :
+        sourceUsed === 'openroute' ? 'OpenRouteService API + Geohacker Database' :
+        'Mock Data + Geohacker Database'
+      ),
       coordinates: routeData.coordinates || null
     });
     
   } catch (error) {
     console.error('Comprehensive route tolls error:', error);
     res.status(500).json({ error: 'Failed to process comprehensive route tolls' });
+  }
+});
+
+// Convenience endpoint to explicitly use Google Directions
+app.get('/api/google-route-tolls', async (req, res) => {
+  try {
+    const { origin, destination, vehicleType = 'car_single' } = req.query;
+    if (!origin || !destination) {
+      return res.status(400).json({ error: 'Origin and destination are required' });
+    }
+
+    let routeData = null;
+    let sourceUsed = 'mock';
+    const google = await getRouteGoogleDirections(origin, destination);
+    if (google) {
+      routeData = google;
+      sourceUsed = 'google';
+    } else {
+      const openRoute = await getRouteOpenRoute(origin, destination);
+      if (openRoute) {
+        routeData = openRoute;
+        sourceUsed = 'openroute';
+      } else {
+        routeData = generateMockRouteData(origin, destination);
+        sourceUsed = 'mock';
+      }
+    }
+
+    const nearbyTolls = findTollsNearRoute(routeData.path, 5);
+    const totalToll = nearbyTolls.reduce((sum, toll) => sum + (toll.rates[vehicleType] || toll.rates.car_single), 0);
+    const formattedTolls = nearbyTolls.map(toll => ({
+      id: toll.id,
+      name: toll.name,
+      lat: toll.lat,
+      lng: toll.lon,
+      location: toll.location,
+      price: toll.rates[vehicleType] || toll.rates.car_single,
+      currency: 'INR',
+      distance_from_route: toll.distance_from_route,
+      highway: toll.highway,
+      fee_effective_date: toll.fee_effective_date
+    }));
+
+    res.json({
+      route: `${origin} → ${destination}`,
+      path: routeData.path || [],
+      total_toll_price: totalToll,
+      currency: 'INR',
+      tolls: formattedTolls,
+      distance: routeData.distance ? `${routeData.distance.toFixed(1)} km` : 'Unknown',
+      duration: routeData.duration ? `${Math.round(routeData.duration)} min` : 'Unknown',
+      vehicle_type: vehicleType,
+      toll_count: formattedTolls.length,
+      data_source: (
+        sourceUsed === 'google' ? 'Google Directions API + Geohacker Database' :
+        sourceUsed === 'openroute' ? 'OpenRouteService API + Geohacker Database' :
+        'Mock Data + Geohacker Database'
+      ),
+      coordinates: routeData.coordinates || null
+    });
+  } catch (error) {
+    console.error('Google route tolls error:', error);
+    res.status(500).json({ error: 'Failed to process Google route tolls' });
   }
 });
 

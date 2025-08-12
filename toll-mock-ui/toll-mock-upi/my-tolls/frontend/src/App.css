@@ -1,4 +1,4 @@
-/* App.css - Modern Toll Calculator UI */
+/* App.css - Toll Route Calculator UI */
 
 * {
   margin: 0;
@@ -6,10 +6,17 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f5f5f5;
+}
+
 .app {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Header */
@@ -44,9 +51,6 @@
   background: rgba(255, 255, 255, 0.9);
   padding: 30px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  /* Debug: Ensure visibility */
-  position: relative;
-  z-index: 1000;
 }
 
 .input-container {
@@ -62,9 +66,6 @@
 .input-group {
   flex: 1;
   min-width: 200px;
-  /* Debug: Ensure visibility */
-  position: relative;
-  z-index: 1001;
 }
 
 .input-group label {
@@ -83,11 +84,7 @@
   font-size: 16px;
   transition: all 0.3s ease;
   background: white;
-  /* Debug: Ensure visibility and interaction */
-  position: relative;
-  z-index: 1002;
   color: #333;
-  cursor: text;
 }
 
 .input-field:focus {
@@ -100,15 +97,9 @@
   color: #999;
 }
 
-/* Debug: Highlight input fields */
-.input-field:hover {
-  border-color: #4CAF50;
-  background-color: #f9f9f9;
-}
-
 .calculate-btn {
   padding: 12px 24px;
-  background: linear-gradient(135deg, #4CAF50, #45a049);
+  background: #6c757d;
   color: white;
   border: none;
   border-radius: 8px;
@@ -116,14 +107,13 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  /* Debug: Ensure visibility and interaction */
-  position: relative;
-  z-index: 1003;
+  white-space: nowrap;
 }
 
 .calculate-btn:hover:not(:disabled) {
+  background: #5a6268;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(76, 175, 80, 0.3);
+  box-shadow: 0 6px 20px rgba(108, 117, 125, 0.3);
 }
 
 .calculate-btn:disabled {
@@ -133,7 +123,7 @@
   box-shadow: none;
 }
 
-/* Error and Info Messages */
+/* Error Message */
 .error-message {
   background: #ffebee;
   color: #c62828;
@@ -142,17 +132,6 @@
   max-width: 1200px;
   border-radius: 8px;
   border-left: 4px solid #c62828;
-  font-weight: 500;
-}
-
-.info-message {
-  background: #e3f2fd;
-  color: #1565c0;
-  padding: 15px 20px;
-  margin: 20px auto;
-  max-width: 1200px;
-  border-radius: 8px;
-  border-left: 4px solid #1565c0;
   font-weight: 500;
 }
 
@@ -183,9 +162,7 @@
 .google-map {
   width: 100%;
   height: 100%;
-  /* Debug: Ensure map is visible */
   background-color: #f0f0f0;
-  border: 2px dashed #ccc;
 }
 
 .map-loading {
@@ -219,60 +196,123 @@
 .results-section {
   background: white;
   border-radius: 15px;
-  padding: 30px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
   max-height: 600px;
 }
 
-.results-content h2 {
+/* Welcome Message */
+.welcome-message {
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-message h2 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+
+.welcome-message p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 30px;
+  font-size: 1.1em;
+}
+
+.example-routes h4 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.example-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.example-btn {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.example-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Results Content */
+.results-content {
+  padding: 30px;
+}
+
+.route-summary {
+  margin-bottom: 30px;
+}
+
+.route-summary h2 {
   color: #333;
   margin-bottom: 20px;
   font-size: 1.5em;
 }
 
-/* Route Summary */
-.route-summary {
-  margin-bottom: 30px;
-}
-
 .summary-grid {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 15px;
 }
 
 .summary-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
   background: #f8f9fa;
+  padding: 15px;
   border-radius: 8px;
   border-left: 4px solid #4CAF50;
 }
 
-.summary-item.total-toll {
+.summary-item .label {
+  display: block;
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.summary-item .value {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.total-toll {
   background: #e8f5e8;
   border-left-color: #2e7d32;
 }
 
-.summary-item .label {
-  font-weight: 600;
-  color: #333;
-}
-
-.summary-item .value {
-  font-weight: 700;
-  color: #4CAF50;
-  font-size: 1.1em;
-}
-
-.summary-item.total-toll .value {
+.total-toll .value {
   color: #2e7d32;
-  font-size: 1.2em;
+  font-size: 1.3rem;
 }
 
 /* Toll Details */
+.toll-details {
+  margin-bottom: 30px;
+}
+
 .toll-details h3 {
   color: #333;
   margin-bottom: 20px;
@@ -339,66 +379,9 @@
   font-size: 1.1em;
 }
 
-.api-sources {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.api-source {
-  background: #e3f2fd;
-  color: #1565c0;
-  padding: 8px 12px;
-  border-radius: 6px;
-  font-size: 0.9em;
-  font-weight: 500;
-}
-
-/* Welcome Message */
-.welcome-message {
-  text-align: center;
+.api-info p {
   color: #666;
-}
-
-.welcome-message h2 {
-  color: #333;
-  margin-bottom: 15px;
-  font-size: 1.8em;
-}
-
-.welcome-message p {
-  margin-bottom: 25px;
-  font-size: 1.1em;
-}
-
-.example-routes h4 {
-  color: #333;
-  margin-bottom: 15px;
-  font-size: 1.2em;
-}
-
-.example-buttons {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.example-btn {
-  padding: 10px 20px;
-  background: #f0f0f0;
-  color: #333;
-  border: 2px solid #ddd;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: 500;
-}
-
-.example-btn:hover {
-  background: #e0e0e0;
-  border-color: #4CAF50;
-  color: #4CAF50;
+  font-size: 0.95em;
 }
 
 /* Responsive Design */
