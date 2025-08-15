@@ -12,6 +12,7 @@ export default function App() {
   const [map, setMap] = useState(null);
   const [directionsService, setDirectionsService] = useState(null);
   const [directionsRenderer, setDirectionsRenderer] = useState(null);
+  const apiBase = import.meta.env.VITE_API_BASE || '';
   
   const mapRef = useRef(null);
 
@@ -104,7 +105,7 @@ export default function App() {
       }
       
       // Then get toll data from our API
-      const apiUrl = `http://localhost:3006/api/enhanced-route-tolls?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}&vehicleType=${vehicleType}&provider=google&optimize=true`;
+      const apiUrl = `${apiBase}/api/comprehensive-route-tolls?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}&vehicleType=${vehicleType}&provider=google&optimize=true`;
       
       const response = await fetch(apiUrl);
       const data = await response.json();

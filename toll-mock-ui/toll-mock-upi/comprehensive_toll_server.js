@@ -729,16 +729,23 @@ app.get('/api/vehicle-types', (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 3005;
-app.listen(PORT, () => {
-  console.log(`🚀 Comprehensive Toll API running on http://localhost:${PORT}`);
-  console.log('📡 Features:');
-  console.log('   • Geohacker Database Structure');
-  console.log('   • Real-time Route Matching');
-  console.log('   • Multiple Vehicle Types');
-  console.log('   • Distance-based Toll Detection');
-  console.log('   • OpenRouteService Integration');
-  console.log(`   • ${tollPlazas.length} Toll Plazas Available`);
-});
 
-export { app }; 
+
+
+const PORT = process.env.PORT || 3005;
+// Only start a listener in non-serverless environments
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`🚀 Comprehensive Toll API running on http://localhost:${PORT}`);
+    console.log('📡 Features:');
+    console.log('   • Geohacker Database Structure');
+    console.log('   • Real-time Route Matching');
+    console.log('   • Multiple Vehicle Types');
+    console.log('   • Distance-based Toll Detection');
+    console.log('   • OpenRouteService Integration');
+    console.log(`   • ${tollPlazas.length} Toll Plazas Available`);
+  });
+}
+
+export default app;
+export { app };

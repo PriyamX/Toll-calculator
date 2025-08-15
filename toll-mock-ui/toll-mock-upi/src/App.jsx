@@ -32,10 +32,11 @@ export default function App() {
 
   const [origin, setOrigin] = useState('Delhi');
   const [destination, setDestination] = useState('Kanpur');
+  const apiBase = import.meta.env.VITE_API_BASE || '';
 
   useEffect(() => {
     // Fetch toll data from the Comprehensive Toll API
-    fetch(`http://localhost:3005/api/comprehensive-route-tolls?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}`)
+    fetch(`${apiBase}/api/comprehensive-route-tolls?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -103,7 +104,7 @@ export default function App() {
     setData(prev => ({ ...prev, loading: true, error: null }));
     
     // Fetch toll data for the new route
-    fetch(`http://localhost:3005/api/comprehensive-route-tolls?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}`)
+    fetch(`${apiBase}/api/comprehensive-route-tolls?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');

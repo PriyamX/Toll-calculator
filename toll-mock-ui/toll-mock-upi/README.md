@@ -1,3 +1,18 @@
+# Toll Mock UPI - Deploying
+
+## Vercel
+
+1. Create `VITE_API_BASE` as empty or `/api` in Vercel project env vars if needed.
+2. Deploy the project root `toll-mock-ui/toll-mock-upi` with the following settings:
+   - Build command: `npm run build`
+   - Output directory: `dist`
+   - Framework preset: Vite
+3. The serverless API is available under `/api/*` and handled by `api/index.js`.
+
+## Netlify
+
+For Netlify Functions, wrap the Express app using `netlify-lambda` or `@netlify/functions`. Alternatively, host only the static frontend and point `VITE_API_BASE` to a deployed API on Vercel.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
